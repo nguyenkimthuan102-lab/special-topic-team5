@@ -22,4 +22,4 @@ Xây dựng 1 nền tảng LMS cho phép người dùng tự do đăng tải, ch
 | Frontend | React + TypeScript |
 | Database | MySQL |
 | Storage | Cloudflare R2 / MinIO |
-| DevOps | Docker Compose, Nginx, Cloudflare SSL, Jenkins CI/CD |
+| DevOps | Docker Compose, Nginx, Cloudflare DNS & SSL, Jenkins CI/CD |
