@@ -281,7 +281,7 @@ flowchart LR
         S3 --> S4["Build Docker Image<br/>(api, phobert-svc, frontend)"]
         S4 --> S5["Push Registry"]
     end
-
+    
     Repo -->|"Poll"| Jenkins
     Jenkins --> S1
     S5 --> Reg["Container Registry"]
