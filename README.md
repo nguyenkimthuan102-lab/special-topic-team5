@@ -1,2 +1,25 @@
 # special-topic-team5
 Chuyên đề tổng hợp - nhóm 5
+
+## Giới thiệu đề tài
+
+Xây dựng 1 nền tảng LMS cho phép người dùng tự do đăng tải, chia sẻ và sử dụng các bộ học liệu do chính người dùng tạo ra. Hệ thống hỗ trợ các chức năng tương tự Moodle, đồng thời cung cấp bài kiểm tra và học bằng flashcard.
+
+## Tính năng AI
+
+- **Kiểm duyệt nội dung tự động:** ứng dụng mô hình PhoBERT để quét và phát hiện nội dung vi phạm.
+- **Tự động sinh nội dung học tập:** tích hợp API LLM để sinh câu hỏi và flashcard, giảm công sức soạn thủ công.
+
+## Kiến trúc hệ thống
+
+**Modular Monolith + Layered Architecture**
+
+## Công nghệ sử dụng
+
+| Thành phần | Công nghệ |
+|---|---|
+| Backend | C# .NET |
+| Frontend | React + TypeScript |
+| Database | MySQL |
+| Storage | Cloudflare R2 / MinIO |
+| DevOps | Docker Compose, Nginx, Cloudflare SSL, Jenkins CI/CD |
